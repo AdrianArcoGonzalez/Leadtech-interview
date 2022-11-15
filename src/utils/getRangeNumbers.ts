@@ -1,4 +1,4 @@
-const getRangeNumbersArray = (min: number, max: number): number[] => {
+const getRangeNumbers = (min: number, max: number): number[] => {
   const numbersRange = [];
 
   for (let number = min; number <= max; number++) {
@@ -8,4 +8,4 @@ const getRangeNumbersArray = (min: number, max: number): number[] => {
   return numbersRange;
 };
 
-export default getRangeNumbersArray;
+export default getRangeNumbers;
