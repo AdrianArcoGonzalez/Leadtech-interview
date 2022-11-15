@@ -1,0 +1,37 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-container {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-label {
+  padding: 5px;
+}
+
+.input-number {
+  font-family: "Roboto";
+  text-align: center;
+  padding: 5px;
+  font-size: 1rem;
+}
+
+.form-button {
+  font-family: inherit;
+  padding: 10px;
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+.form-button:disabled {
+  background-color: #cccccc;
+}
